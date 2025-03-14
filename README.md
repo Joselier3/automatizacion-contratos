@@ -11,9 +11,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. Popular el folder **contratos** con los PDFs de contratos a procesar
+2. Agrega las llaves de acceso `ANTHROPIC_API_KEY` y `PROMPTLAYER_API_KEY`
 
-3. Ejecutar el notebook **'src_notebook.ipynb'**.
+3. Popular el folder **contratos** con los PDFs de contratos a procesar
+
+4. Ejecutar el notebook **'src_notebook.ipynb'**.
 
 El excel con todos los campos extraidos se encontrara en el archivo **'/output/output.xlsx'**.
 
